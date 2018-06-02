@@ -13,7 +13,7 @@ end
 def assign_rooms(list_of_speakers)
   rooms = [1, 2, 3, 4, 5, 6, 7]
   rooms.each_with_index do |room_number, index|
-    puts "#{room_number}: #{index+1}"
+    puts "#{list_of_speakers}: #{index+1}"
   end
   list_of_speakers.each_with_index do |name, index|
   puts "#{name}: #{index}"
