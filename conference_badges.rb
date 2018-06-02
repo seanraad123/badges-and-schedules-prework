@@ -7,9 +7,13 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array_of_names)
-  return "Badge messages"
+  new_array = []
+  for i in array_of_names
+    new_array.shift(i)
+  end
+  return new_array
 end
-
+'''
 def assign_rooms(list_of_speakers)
   rooms = [1, 2, 3, 4, 5, 6, 7]
   rooms.each_with_index do |room_number, index|
@@ -21,3 +25,4 @@ end
 end
 
 assign_rooms(names)
+'''
