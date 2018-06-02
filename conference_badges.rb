@@ -9,8 +9,7 @@ end
 def batch_badge_creator(array_of_names)
   new_array = []
   for i in array_of_names
-    badge_maker(i)
-    new_array.push(i)
+    new_array.push(badge_maker(i))
   end
   return new_array
 end
