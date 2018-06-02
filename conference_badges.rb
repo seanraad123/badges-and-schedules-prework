@@ -9,12 +9,12 @@ end
 def batch_badge_creator(array_of_names)
   new_array = []
   for i in array_of_names
-    new_array.shift(i)
+    new_array.push(i)
   end
   return new_array
 end
 
-batch_badge_creator(names)
+print batch_badge_creator(names)
 
 '''
 def assign_rooms(list_of_speakers)
