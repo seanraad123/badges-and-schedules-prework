@@ -11,4 +11,8 @@ def batch_badge_creator(array_of_names)
 end
 
 def assign_rooms(list_of_speakers)
-  list_of_speakers.each_with_index()
+  rooms = [1, 2, 3, 4, 5, 6, 7]
+  list_of_speakers.each_with_index
+end
+
+print assign_rooms(names)
