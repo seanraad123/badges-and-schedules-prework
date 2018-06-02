@@ -14,8 +14,6 @@ def batch_badge_creator(array_of_names)
   return new_array
 end
 
-print batch_badge_creator(names)
-
 '''
 def assign_rooms(list_of_speakers)
   rooms = [1, 2, 3, 4, 5, 6, 7]
