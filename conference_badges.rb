@@ -12,9 +12,7 @@ end
 
 def assign_rooms(list_of_speakers)
   rooms = [1, 2, 3, 4, 5, 6, 7]
-  print list_of_speakers.each_with_index() { |item, index|
-  hash[item] = index
-}
+  print list_of_speakers.each_with_index() { |item, index| hash[item] = index}
 end
 
 assign_rooms(names)
